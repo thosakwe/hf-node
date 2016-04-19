@@ -1,0 +1,15 @@
+.idea/
+src/
+node_modules/
+.env
+npm-debug.log
+tmp*
+.git*
+docs/
+test/
+.DS_Store
+*.markdown
+*.md
+!lib/
+.babelrc
+.editorconfig
