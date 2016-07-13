@@ -5,7 +5,7 @@ require('babel-polyfill');
 var HackForums = require('../src');
 
 (async function() {
-  var client = new HackForums({show: true});
+  var client = new HackForums({show: false});
   await client.login(process.env.HF_USER, process.env.HF_PASS);
   const messages = await client.getInbox();
   if (!messages.length)
